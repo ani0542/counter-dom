@@ -1,0 +1,17 @@
+document.getElementById('first').addEventListener('click',increase);
+function increase()
+{
+    let value1=document.getElementById('here').innerHTML;
+    value1++;
+    document.getElementById('here').innerHTML=value1
+}
+
+
+document.getElementById('second').addEventListener('click',decrease);
+function decrease()
+{
+    let value2=document.getElementById('here').innerHTML;
+    value2--;
+    document.getElementById('here').innerHTML=value2
+}
+
